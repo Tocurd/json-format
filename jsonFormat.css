@@ -1,0 +1,50 @@
+.json-container {
+    margin: 20px auto;
+    position: relative;
+    width: 50%;
+}
+
+pre {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #ebeef5;
+    background: #f5f7fa;
+    border-radius: 3px;
+    line-height: 23px;
+    min-height: 50px;
+    max-height: 500px;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    cursor: not-allowed;
+}
+
+.drag-icon {
+    position: absolute;
+    display: block;
+    bottom: 1px;
+    right: 1px;
+    width: 8px;
+    height: 9px;
+    background: #fff url("../../../../assets/image/iconDarg.png") no-repeat 100% 100%;
+}
+
+.string {
+    color: #3ab54a;
+}
+
+.number {
+    color: #25aae2;
+}
+
+.boolean {
+    color: #f98280;
+}
+
+.null {
+    color: #f1592a;
+}
+
+.key {
+    color: #92278f;
+}
